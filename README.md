@@ -1,2 +1,2 @@
 # Testing
-Adding all my testing related files here.
+This Repository contains all my testing files which includes sample testcases I scripted for a sample website.
