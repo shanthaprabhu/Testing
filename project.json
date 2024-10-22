@@ -1,0 +1,101 @@
+{
+  "name": "openCart",
+  "projectId": "a39bd4d7-a436-489f-8543-5b6db6eb605f",
+  "description": "This process is to test basic functionalities of openCart.",
+  "main": "TC001.xaml",
+  "dependencies": {
+    "UiPath.CodedWorkflows": "[23.10.2]",
+    "UiPath.Excel.Activities": "[2.22.3]",
+    "UiPath.Mail.Activities": "[1.21.1]",
+    "UiPath.System.Activities": "[23.10.3]",
+    "UiPath.Testing.Activities": "[23.10.0]",
+    "UiPath.UIAutomation.Activities": "[23.10.6]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.10.1.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "10c8e1af-37d7-4003-a340-8fcb201522d2",
+        "testCaseType": "TestCase",
+        "fileName": "TestCase.cs"
+      },
+      {
+        "templateType": "Generic",
+        "fileName": ".templates\\TC001Template.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "ac1ea852-a0ff-4210-b9ec-9ada0935b562",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "openCart - Register.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "63cc169f-118d-4fcb-9c7e-1d43c7803e0d",
+        "testCaseType": "TestCase",
+        "fileName": "openCart - Login.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d6abef45-89d1-4ddf-8f00-ced4ecf46d49",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "openCart - Register Related.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e3617be4-137b-412c-aad9-5d92b64d7ac2",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCase.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "TC001.xaml",
+      "uniqueId": "e5bda1f0-ce26-450f-b37d-36cbcd6c6098",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
