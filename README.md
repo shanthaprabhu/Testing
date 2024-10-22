@@ -1,2 +1,2 @@
 # Testing
-This Repository contains all my testing files which includes sample testcases I scripted for a demo website.
+This Repository contains files where I have added TCs as part of testing a demo e-commerce website "OpenCart" using UiPath Test Suite. 
